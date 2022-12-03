@@ -2,8 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const App = () => {
+  let num = 2
+  num = 'string'
   return(
-    <h1>Hello World</h1>
+    <h1>Hello World {num}</h1>
   )
 }
 
