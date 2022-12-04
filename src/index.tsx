@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Style from './style.module.scss'
 
 const App = () => {
-  let num = 2
-  num = 'string'
+  let num = 'ha-ha'
   return(
-    <h1>Hello World {num}</h1>
+    <h1 className={Style.container}>Hello World {num}</h1>
   )
 }
 
