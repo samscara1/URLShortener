@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Style from './style.module.scss'
 
 const App = () => {
-  let num = 'ha-ha'
+  const num = process.env.NODE_ENV
   return(
     <h1 className={Style.container}>Hello World {num}</h1>
   )
