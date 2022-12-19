@@ -18,8 +18,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src', 'index.html')
-    }),
+      title: "Your custom title lalala",
+      template: './src/index.html'
+    })
   ],
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
